@@ -1,0 +1,22 @@
+.header{
+    background-color: aquamarine;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item{
+    border: 1px solid dodgerblue;
+    padding: 1rem;
+}
+.footer{
+    background-color: aquamarine;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
